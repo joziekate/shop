@@ -1,0 +1,248 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* Header */
+
+.header {
+    background-color: #FFFFFF;
+    padding: 51px 0 41px;
+}
+
+.rectangle {
+    position: absolute;
+    width: 44%;
+    height: 826px;
+    right: 0px;
+    top: 0px;
+    background-color: #F1EADC;
+    z-index: 0;
+}
+
+.container {
+    position: relative;
+    max-width: 1110px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 28px;
+}
+
+.menu-links {
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    padding-left: 25%;
+    padding-top: 2px;
+}
+
+.menu-links-item {
+    width: 73px;
+    text-align: center;
+}
+
+.menu-link:hover {
+    font-weight: 700;
+    color: #6E9C9F;
+    transition: 0.5s;
+}
+
+.menu-link {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.phone {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    padding-right: 91px;
+    width: 164px;
+}
+
+.phone-ring-hover {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+
+.phone-ring-hover:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.phone-number {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.basket {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+/* Offer */
+
+main {
+    height: 706px;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    padding-top: 145px;
+}
+
+.headline {
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 61px;
+    letter-spacing: 0.02em;
+    width: 585px;
+}
+
+.line {
+    padding-top: 45px;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    width: 385px;
+    text-align: right;
+}
+
+.open-shop {
+    background-color: #6E9C9F;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 22px 50px;
+    font-size: 17px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.open-shop:hover {
+    background-color: #509498;
+    transition: 0.5s;
+}
+
+.button {
+    padding-top: 52px;
+    display: flex;
+    justify-content: center;
+    padding-right: 22%;
+}
+
+/* New collection */
+
+.new-collection {
+    padding-top: 130px;
+}
+
+.title {
+    padding-bottom: 92px;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 500;
+}
+
+.collection {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+
+.name-item {
+    padding: 24px 0 7px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+}
+
+.price-item {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.price-one {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #998E78;
+    text-decoration-line: line-through;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #998E78;
+}
+
+.overlay {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 350px;
+    height: 478px;
+    background-color: #6E9C9F;
+    opacity: 0;
+    z-index: 0;
+}
+
+.arrow-item {
+    position: absolute;
+    margin: 228px 160px 228px 159px;
+    z-index: 1;
+    opacity: 0;
+}
+
+.overlay:hover {
+    opacity: 0.36;
+    transition: 0.5s;
+}
+
+.overlay:hover > img {
+    opacity: 1;
+}
