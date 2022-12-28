@@ -269,3 +269,113 @@ main {
     border: 1px solid #6E9C9F;
     margin: 0 auto;
 }
+
+/* Important */
+
+.important {
+    padding-top: 130px;
+}
+
+.superimp {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+    padding-bottom: 92px;
+}
+
+.imp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imp-name {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    padding: 37px 0 24px;
+}
+
+.impimg {
+    width: 61px;
+    height: 61px;
+}
+
+.imp-about {
+    width: 305px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+/* Team */
+
+.team {
+    padding-top: 130px;
+}
+
+.teamline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.larrow {
+    position: absolute;
+    left: -61px;
+    right: 102.61%;
+    top: 60%;
+    bottom: 40%;
+}
+
+.rarrow {
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    left: 760px;
+    top: 60%;
+    bottom: 40%;
+}
+
+.aboutteam {
+    width: 255px;
+}
+
+.every {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.02em
+}
+
+.everyabout {
+    padding: 28px 0;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.02em
+}
+
+.brendlink {
+    color: #6E9C9F;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.02em
+}
+
+.underline {
+    background-color: #CEDEDF;
+    height: 1px;
+    width: 180px;
+    margin-bottom: 5px;
+    opacity: 0;
+}
+
+.brendlink:hover ~ .underline {
+    opacity: 1;
+    transition: 0.5s;
+}
