@@ -270,6 +270,12 @@ main {
     margin: 0 auto;
 }
 
+.openshop:hover {
+    background-color: #6E9C9F;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
 /* Important */
 
 .important {
@@ -314,6 +320,7 @@ main {
 
 .team {
     padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 .teamline {
@@ -378,4 +385,91 @@ main {
 .brendlink:hover ~ .underline {
     opacity: 1;
     transition: 0.5s;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #F1EADC;
+    padding-top: 101px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemsf {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    padding-top: 6px;
+}
+
+.rights {
+    padding-top: 64px;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.02em
+}
+
+.column2 {
+    width: 400px;
+    text-align: left;
+}
+
+.itemf2 {
+    padding-top: 29px;
+    text-align: left;
+    padding-bottom: 97px;
+}
+
+.itemf3 {
+    padding-top: 10px;
+}
+
+.itemf {
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    width: 80px;
+}
+
+.itemf.selected {
+    font-weight: 700;
+    color: #6E9C9F;
+} 
+
+.column3 {
+    text-align: right;
+}
+
+.phonenum {
+    padding-bottom: 9px;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+}
+
+.mail {
+    padding-bottom: 30px;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+}
+
+.socials {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 auto;
+}
+
+.paypics {
+    padding-top: 30px;
 }
