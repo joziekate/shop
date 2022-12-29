@@ -522,6 +522,7 @@ main {
     padding-top: 214px;
     padding-left: 0px;
     margin: 0;
+    padding-bottom: 92px;
 }
 
 .linkk {
@@ -538,6 +539,68 @@ main {
 
 .linkk:hover {
     color: #ffffff;
+    background-color: #000000;
+    transition: 0.5s;
+}
+
+.tovary {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #919191;
+    padding-bottom: 65px;
+}
+
+/* Full Collection */
+
+.fullcollection {
+    padding-bottom: 65px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+    margin: 0 auto;
+    padding-bottom: 130px;
+}
+
+.arr {
+    margin: auto 0;
+}
+
+.num {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    border: #000000 1px solid;
+    width: 39px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+.num.selected {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #000000;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    border: #000000 1px solid;
+    width: 39px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+.num:hover {
+    color: #FFFFFF;
     background-color: #000000;
     transition: 0.5s;
 }
