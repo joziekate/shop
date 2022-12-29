@@ -473,3 +473,71 @@ main {
 .paypics {
     padding-top: 30px;
 }
+
+/* My shop */
+
+.mainshop {
+    padding-top: 149px;
+}
+
+.shoptitle {
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 61px;
+    letter-spacing: 0.02em;
+    padding-bottom: 26px;
+}
+
+.shopmin {
+    display: flex;
+    justify-content: space-between;
+    width: 181px;
+}
+
+.mainsh {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.tire {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.shopp {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #919191;
+}
+
+.links-clothes {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 214px;
+    padding-left: 0px;
+    margin: 0;
+}
+
+.linkk {
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 19px 65px;
+}
+
+.linkk.selected {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.linkk:hover {
+    color: #ffffff;
+    background-color: #000000;
+    transition: 0.5s;
+}
