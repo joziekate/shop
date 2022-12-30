@@ -658,3 +658,41 @@ main {
     display: flex;
     justify-content: center;
 }
+
+/* Contats */
+
+.infocontacts {
+    padding-top: 214px;
+}
+
+.contact-items {
+    padding: 130px 0 130px;
+    display: flex;
+    justify-content: space-between;
+    width: 943px;
+}
+
+.c-name {
+    padding-bottom: 19px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.c-full {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+}
+
+/* Contacts form */
+
+.contacts-title {
+    padding-bottom: 62px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+}
