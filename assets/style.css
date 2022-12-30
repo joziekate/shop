@@ -604,3 +604,57 @@ main {
     background-color: #000000;
     transition: 0.5s;
 }
+
+/* About brand */
+
+.aboutbrandd {
+    padding: 214px 0 130px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 130px;
+}
+
+.textgroup {
+    width: 542px;
+    margin: auto 0;
+}
+
+.idea {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    padding-bottom: 46px;
+}
+
+.textidea {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.open-shopp {
+    background-color: #6E9C9F;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 22px 50px;
+    font-size: 17px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.open-shopp:hover {
+    background-color: #509498;
+    transition: 0.5s;
+}
+
+.bbt {
+    display: flex;
+    justify-content: center;
+}
